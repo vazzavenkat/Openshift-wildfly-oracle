@@ -1,7 +1,7 @@
 # This image provides a base for building and running WildFly applications.
 # It builds using maven and runs the resulting artifacts on WildFly 10.1.0 Final
 
-FROM openshift/base-centos7
+FROM openshift/wildfly-90-centos7
 
 MAINTAINER Ben Parees <bparees@redhat.com>
 
